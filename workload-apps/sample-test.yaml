@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/dmavis/sample-deploy.git
-    targetRevision: HEAD
+    targetRevision: env/test
     path: overlays/test
   syncPolicy:
     automated:
