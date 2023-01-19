@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: workload-env
+  annotations:
+    argocd.argoproj.io/hook: Skip
+data:
+  domain: test.example.com
+  clusterUrl: https://someurl.com
