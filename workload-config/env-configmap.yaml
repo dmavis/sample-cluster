@@ -5,5 +5,5 @@ metadata:
   annotations:
     argocd.argoproj.io/hook: Skip
 data:
-  domain: test.example.com
-  clusterUrl: https://someurl.com
+  domain: cluster.example.com
+  clusterUrl: https://cluster.example.com/api
